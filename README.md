@@ -1,6 +1,6 @@
 # Image Finder User Study
 
-## Running the app on Windows
+## Running the app locally on Windows
 
 ```shell
 git clone git@github.com:schagsim/image_finder.git C:\path\to\project\folder
@@ -39,6 +39,8 @@ python -m pip install -r .\requirements.txt
 ```
 
 ### Running the app in Docker container
+
+Install [docker](<https://docs.docker.com/docker-for-windows/install/>) on you local machine.
 
 Go to web app folder `C:\path\to\project\folder\image_finder_web`
 
