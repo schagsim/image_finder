@@ -40,11 +40,29 @@ python -m pip install -r .\requirements.txt
 
 ### Running the app in Docker container
 
-TBD
+Go to web app folder `C:\path\to\project\folder\image_finder_web`
+
+Build the docker image
+
+```shell
+docker build -t image_finder_web .
+```
+
+Run the docker image
+
+```shell
+docker run -d --name image_finder_web_container -p 5000:5000 image_finder_web
+```
+
+To stop the docker container, use following command
+
+```shell
+docker kill image_finder_web_container
+```
 
 ### Running the app without Docker container
 
-While in the project virtual environment, run flask app
+Go to web app folder `C:\path\to\project\folder\image_finder_web`
 
 ```shell
 python -m flask run
