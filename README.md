@@ -68,4 +68,4 @@ Go to web app folder `C:\path\to\project\folder\image_finder_web`
 python -m flask run
 ```
 
-You can now go to `http://127.0.0.1:5000/` (this address might get outdated eventually) and see the web.
+Both for Docker and no-Docker run, you can now go to `http://localhost:5000/` (this address might get outdated eventually) and see the web.
