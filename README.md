@@ -6,19 +6,19 @@
 git clone git@github.com:schagsim/image_finder.git C:\path\to\project\folder
 ```
 
-Install [Python 3.8.9](<https://www.python.org/downloads/release/python-389/>)
+Install [Python 3.9.4](<https://www.python.org/downloads/release/python-394/>)
 
 * You can use [Miniconda](<https://docs.conda.io/en/latest/miniconda.html>) to manage Python versions
-* You can also download multiple Python versions and use the specific `python.exe` for 3.8.9
+* You can also download multiple Python versions and use the specific `python.exe` for 3.9.4
 
 Make sure your Python is a correct version
 
 ```shell
 > python --version
-Python 3.8.9
+Python 3.9.4
 ```
 
-Using the `Python 3.8.9` you installed, create virtual environment in `image_finder` project.
+Using the `Python 3.9.4` you installed, create virtual environment in `image_finder` project.
 
 ```shell
 python -m venv C:\path\to\project\folder\venv
